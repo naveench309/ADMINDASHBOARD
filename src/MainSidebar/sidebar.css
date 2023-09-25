@@ -1,0 +1,58 @@
+.main-sidebar{
+    background-color:black;
+    padding: 0;
+    margin: 0px;;
+    overflow-y: auto;
+    text-align: left;
+    color: white;
+    margin-bottom: 0%;
+}
+.main-sidebar ul li {
+
+     list-style-type: none;
+     margin-bottom: 5px;
+     
+}
+.users{
+    text-align: left;
+}
+.chone{
+    color:black;
+    text-align: left;
+}
+.lin{
+    text-align: left;
+}
+.ab{
+    margin-left: 130px;
+}
+.xy{
+    text-align: left;
+}
+.ir{
+    margin-left: 10px;
+}
+.ib{
+    margin-left: 24px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+  }
+  
+  .box1, .box2 {
+    width: 50%; /* Set the width of each box to 50% to make them equal width */
+    padding: 10px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Add borders for visibility */
+  }
+  .u1{
+    text-align: left;
+  }
+  .view{
+    text-align: left;
+  }
+  .del{
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }

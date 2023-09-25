@@ -1,0 +1,90 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.layout{
+  width:100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 2fr 5fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-areas: 'grid1' 
+  'grid2'
+  'grid3'
+  'grid4'
+  'grid5'
+  'grid6'
+  'grid7';
+}
+.grid1{
+  grid-area: grid1;
+  background-color: aliceblue;
+}
+.grid2{
+  grid-area: grid2;
+  background-color: rgb(41, 44, 46);
+}
+.grid3{
+  grid-area: grid3;
+  background-color: rgb(24, 126, 216);
+}
+.grid4{
+  grid-area: grid4;
+  background-color: rgb(37, 230, 47);
+}
+.grid5{
+  grid-area: grid5;
+  background-color: rgb(17, 141, 11);
+}
+.grid6{
+  grid-area: grid6;
+  background-color: rgba(12, 84, 148, 0.86);
+}
+.grid7{
+  grid-area: grid7;
+  background-color: rgb(235, 20, 85);
+}
+.grid8{
+  grid-area: grid8;
+  background-color: rgb(235, 20, 85);
+}
+.grid9{
+  grid-area: grid9;
+  background-color: rgb(235, 20, 85);
+}
